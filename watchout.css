@@ -1,0 +1,48 @@
+body{
+    background-color: #000000;
+}
+
+#lipton{
+    height: 100%;
+    text-align: center;
+}
+
+#peach{
+    top: 100px;
+    text-align: center;
+}
+
+#peachpeach{
+    top: -100px;
+    text-align: center;
+}
+
+.peach-font{
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(222, 0, 0);
+}
+
+.peach-btn{
+    width: 48%;
+    height: 130px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(222, 0, 0) !important;
+}
+
+.realpeach{
+    transform:scale(1300);
+    -webkit-transform:scale(1300);
+    -moz-transform:scale(1300);
+    -o-transform:scale(1300);
+}
+
+#realpeach{
+    width: 1px !important;
+
+    transition: transform .15s;  
+    -o-transition: transform .15s;
+    -moz-transition: transform .15s;
+    -webkit-transition: transform .15s;
+}
